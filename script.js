@@ -26,7 +26,7 @@ const questions = [
   "Si tu pouvais dialoguer avec ce lieu, quelle question lui poserais-tu ?",
   "Quelle trace désires-tu laisser ici, même si elle est éphémère ?",
   "Quel serait un acte de réciprocité envers ce champ et ses énergies ?",
-  "Quel espace, énergie et conscience mon corps et moi pouvons-nous être pour accueillir ce moment avec légèreté ?",
+  "Quel espace, énergie et conscience ton corps et toi peuvent être pour goûter l'espace infini que tu es ?",
   "Qu’est-ce qui pourrait émerger si tu te permettais d’exister sans jugement ici et maintenant ?",
   "Quelle infinité de possibilités n’as-tu pas encore perçue ?",
   "Comment peux-tu vibrer en harmonie avec ce champ ?",
