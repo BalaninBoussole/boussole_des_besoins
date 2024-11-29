@@ -1,33 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boussole des Besoins</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Champ Unifié</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="compass">
-        <div id="center">Vous</div>
-        <div id="need1" class="need">Besoin 1</div>
-        <div id="need2" class="need">Besoin 2</div>
-        <div id="need3" class="need">Besoin 3</div>
-        <div id="need4" class="need">Besoin 4</div>
+  <div class="container">
+    <div id="symbol-container">
+      <img src="symbole.png" alt="Symbole Taiji" id="symbol" />
     </div>
-    <div id="questions">
-        <p id="question-text">Question 1: Comment vous sentez-vous aujourd'hui?</p>
-        <button onclick="answerQuestion(1)">Réponse 1</button>
-        <button onclick="answerQuestion(2)">Réponse 2</button>
+    <div id="question-box">
+      <p id="question-text">Cliquez sur le symbole pour recevoir une question.</p>
     </div>
-    <div id="feedback" style="display: none;">
-        <p id="feedback-text"></p>
-    </div>
-    <div id="resources" style="display: none;">
-        <h3>Ressources Supplémentaires</h3>
-        <p>Consultez nos guides et tutoriels pour mieux comprendre la CNV et l'auto-empathie.</p>
-        <a href="guide.html">Guide de la CNV</a>
-        <a href="tutorial.html">Tutoriel d'Auto-Empathie</a>
-    </div>
-    <script src="script.js"></script>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
