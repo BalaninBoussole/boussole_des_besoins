@@ -1,33 +1,40 @@
-#compass {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: 2px solid #000;
-    margin: 50px auto;
+let currentQuestion = 1;
+
+function answerQuestion(response) {
+    let feedbackText = '';
+
+    if (currentQuestion === 1) {
+        if (response === 1) {
+            document.getElementById('need1').style.backgroundColor = '#0f0';
+            document.getElementById('question-text').innerText = 'Question 2: Avez-vous bien dormi?';
+            feedbackText = 'Vous avez identifié un besoin de repos. Continuez à explorer vos émotions.';
+        } else if (response === 2) {
+            document.getElementById('need2').style.backgroundColor = '#0f0';
+            document.getElementById('question-text').innerText = 'Question 2: Avez-vous mangé équilibré?';
+            feedbackText = 'Vous avez identifié un besoin de nutrition. Continuez à explorer vos émotions.';
+        }
+        currentQuestion = 2;
+    } else if (currentQuestion === 2) {
+        if (response === 1) {
+            document.getElementById('need3').style.backgroundColor = '#0f0';
+            document.getElementById('question-text').innerText = 'Question 3: Avez-vous fait de l\'exercice?';
+            feedbackText = 'Vous avez identifié un besoin de mouvement. Continuez à explorer vos émotions.';
+        } else if (response === 2) {
+            document.getElementById('need4').style.backgroundColor = '#0f0';
+            document.getElementById('question-text').innerText = 'Question 3: Avez-vous passé du temps avec des amis?';
+            feedbackText = 'Vous avez identifié un besoin de connexion sociale. Continuez à explorer vos émotions.';
+        }
+        currentQuestion = 3;
+    } else {
+        document.getElementById('question-text').innerText = 'Merci pour vos réponses!';
+        feedbackText = 'Vous avez bien exploré vos besoins. Continuez à pratiquer l\'auto-empathie.';
+        document.getElementById('resources').style.display = 'block';
+    }
+
+    document.getElementById('feedback-text').innerText = feedbackText;
+    document.getElementById('feedback').style.display = 'block';
 }
 
-#center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.need {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background-color: #f00;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    transition: background-color 0.5s;
-}
-
-#need1 { top: 0; left: 50%; transform: translateX(-50%); }
-#need2 { top: 50%; left: 100%; transform: translate(-50%, -50%); }
-#need3 { top: 100%; left: 50%; transform: translate(-50%, -50%); }
-#need4 { top: 50%; left: 0; transform: translate(50%, -50%); }
+document.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed');
+});
