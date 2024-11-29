@@ -10,10 +10,24 @@
 <body>
   <div class="container">
     <div id="symbol-container">
-      <img src="symbole.png" alt="Symbole Taiji" id="symbol" />
+      <img src="symbole.png" alt="Symbole Taiji" id="symbol" aria-label="Cliquez pour recevoir une question" />
     </div>
     <div id="question-box">
       <p id="question-text">Cliquez sur le symbole pour recevoir une question.</p>
+    </div>
+    <div id="contact-form">
+      <h3>Me transmettre un message</h3>
+      <form action="https://formspree.io/f/xvgovzvj" method="POST">
+        <label>
+          Votre email (facultatif):
+          <input type="email" name="email" placeholder="Votre email">
+        </label>
+        <label>
+          Votre message:
+          <textarea name="message" placeholder="Votre message" required></textarea>
+        </label>
+        <button type="submit">Envoyer</button>
+      </form>
     </div>
   </div>
   <script src="script.js"></script>
