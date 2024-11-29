@@ -19,7 +19,18 @@ const questions = [
   "En quoi ce moment reflète-t-il l’essence même de ce que tu cherches ?",
   "Qu’as-tu appris ici que tu pourrais porter avec toi dans le monde extérieur ?",
   "Si ce champ était une part de toi-même, quelle serait sa voix ?",
-  "Dans cet espace, peux-tu ressentir ce qui est au-delà des mots ?"
+  "Dans cet espace, peux-tu ressentir ce qui est au-delà des mots ?",
+  "Quelles relations invisibles te soutiennent en ce moment ?",
+  "Comment te sens-tu relié(e) à ce qui t’entoure ici et maintenant ?",
+  "Quel sens donnes-tu à ta place dans cet espace ?",
+  "Si tu pouvais dialoguer avec ce lieu, quelle question lui poserais-tu ?",
+  "Quelle trace désires-tu laisser ici, même si elle est éphémère ?",
+  "Quel serait un acte de réciprocité envers ce champ et ses énergies ?",
+  "Quel espace, énergie et conscience mon corps et moi pouvons-nous être pour accueillir ce moment avec légèreté ?",
+  "Qu’est-ce qui pourrait émerger si tu te permettais d’exister sans jugement ici et maintenant ?",
+  "Quelle infinité de possibilités n’as-tu pas encore perçue ?",
+  "Comment peux-tu vibrer en harmonie avec ce champ ?",
+  "Quelles limitations serais-tu prêt(e) à libérer pour embrasser l'infini de ton être ?"
 ];
 
 // Fonction pour choisir une question aléatoire
