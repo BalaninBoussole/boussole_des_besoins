@@ -21,5 +21,7 @@ function getRandomQuestion() {
 // Gestionnaire d'événement pour le clic sur le symbole
 document.getElementById("symbol").addEventListener("click", () => {
   const questionText = document.getElementById("question-text");
+  const questionBox = document.getElementById("question-box");
   questionText.textContent = getRandomQuestion();
+  questionBox.classList.add("show");
 });
