@@ -1,29 +1,55 @@
-let currentQuestion = 1;
-
-function answerQuestion(response) {
-    if (currentQuestion === 1) {
-        if (response === 1) {
-            document.getElementById('need1').style.backgroundColor = '#0f0';
-            document.getElementById('question-text').innerText = 'Question 2: Avez-vous bien dormi?';
-        } else if (response === 2) {
-            document.getElementById('need2').style.backgroundColor = '#0f0';
-            document.getElementById('question-text').innerText = 'Question 2: Avez-vous mangé équilibré?';
-        }
-        currentQuestion = 2;
-    } else if (currentQuestion === 2) {
-        if (response === 1) {
-            document.getElementById('need3').style.backgroundColor = '#0f0';
-            document.getElementById('question-text').innerText = 'Question 3: Avez-vous fait de l\'exercice?';
-        } else if (response === 2) {
-            document.getElementById('need4').style.backgroundColor = '#0f0';
-            document.getElementById('question-text').innerText = 'Question 3: Avez-vous passé du temps avec des amis?';
-        }
-        currentQuestion = 3;
-    } else {
-        document.getElementById('question-text').innerText = 'Merci pour vos réponses!';
-    }
+#compass {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin: 50px auto;
 }
 
-document.addEventListener('DOMContentLoaded', (event) => {
-    console.log('DOM fully loaded and parsed');
-});
+#center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.need {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #f00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: background-color 0.5s;
+}
+
+#need1 { top: 0; left: 50%; transform: translateX(-50%); }
+#need2 { top: 50%; left: 100%; transform: translate(-50%, -50%); }
+#need3 { top: 100%; left: 50%; transform: translate(-50%, -50%); }
+#need4 { top: 50%; left: 0; transform: translate(50%, -50%); }
+
+#feedback {
+    margin-top: 20px;
+    text-align: center;
+    color: #00f;
+}
+
+#resources {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#resources a {
+    display: block;
+    margin-top: 10px;
+    color: #00f;
+    text-decoration: none;
+}
+
+#resources a:hover {
+    text-decoration: underline;
+}
