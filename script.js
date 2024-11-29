@@ -6,10 +6,20 @@ const questions = [
   "De quoi peux-tu te délester pour mieux être ici ?",
   "Quel murmure de toi-même souhaites-tu entendre ici ?",
   "Qu’as-tu apporté en toi qui désire être vu, entendu ou reconnu ?",
+  "Y a-t-il une vérité en toi que tu n’as jamais osé regarder pleinement ?",
+  "Quel est ton besoin le plus profond, celui qui n’a pas encore trouvé ses mots ?",
   "Si tout était possible ici, que choisirais-tu d’offrir ou de recevoir ?",
   "Qu’est-ce qui, dans ce silence, t’appelle à t’unifier davantage ?",
-  "Comment puis-je me rendre disponible pour une vraie rencontre ?",
-  "Si tu regardais ce moment comme une opportunité, que choisirais-tu ?",
+  "Que ressens-tu lorsque tu te sais relié(e) à tout ce qui est ici ?",
+  "Si tu pouvais tendre la main à une autre présence dans ce champ, que ferais-tu ?",
+  "Quelle part de toi désire contribuer à la vie collective ?",
+  "Quelles vibrations du champ sens-tu résonner le plus fort en toi ?",
+  "Si ce champ te parlait à travers un autre être, que te dirait-il ?",
+  "Peux-tu sentir l’harmonie qui existe déjà ici, même dans l’imperfection ?",
+  "En quoi ce moment reflète-t-il l’essence même de ce que tu cherches ?",
+  "Qu’as-tu appris ici que tu pourrais porter avec toi dans le monde extérieur ?",
+  "Si ce champ était une part de toi-même, quelle serait sa voix ?",
+  "Dans cet espace, peux-tu ressentir ce qui est au-delà des mots ?"
 ];
 
 // Fonction pour choisir une question aléatoire
