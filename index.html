@@ -1,29 +1,24 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Symbole</title>
-    <!-- Lien vers l'icône de la page -->
-    <link rel="icon" href="symbole.png" type="image/png">
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
-        img {
-            max-width: 10%;
-            max-height: 10%;
-            border: 2px solid #ccc;
-            border-radius: 10px;
-        }
-    </style>
+    <title>Boussole des Besoins</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="symbole.png" alt="symbole">
+    <div id="compass">
+        <div id="center">Vous</div>
+        <div id="need1" class="need">Besoin 1</div>
+        <div id="need2" class="need">Besoin 2</div>
+        <div id="need3" class="need">Besoin 3</div>
+        <div id="need4" class="need">Besoin 4</div>
+    </div>
+    <div id="questions">
+        <p>Question 1: Comment vous sentez-vous aujourd'hui?</p>
+        <button onclick="answerQuestion(1)">Réponse 1</button>
+        <button onclick="answerQuestion(2)">Réponse 2</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
