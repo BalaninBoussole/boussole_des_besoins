@@ -1,55 +1,25 @@
-#compass {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: 2px solid #000;
-    margin: 50px auto;
+// Liste des questions
+const questions = [
+  "Que ressens-tu, maintenant que tu es là ?",
+  "As-tu perçu ce qui t’a amené ici ?",
+  "Qu’espères-tu découvrir ou laisser émerger dans cet espace ?",
+  "De quoi peux-tu te délester pour mieux être ici ?",
+  "Quel murmure de toi-même souhaites-tu entendre ici ?",
+  "Qu’as-tu apporté en toi qui désire être vu, entendu ou reconnu ?",
+  "Si tout était possible ici, que choisirais-tu d’offrir ou de recevoir ?",
+  "Qu’est-ce qui, dans ce silence, t’appelle à t’unifier davantage ?",
+  "Comment puis-je me rendre disponible pour une vraie rencontre ?",
+  "Si tu regardais ce moment comme une opportunité, que choisirais-tu ?",
+];
+
+// Fonction pour choisir une question aléatoire
+function getRandomQuestion() {
+  const randomIndex = Math.floor(Math.random() * questions.length);
+  return questions[randomIndex];
 }
 
-#center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.need {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background-color: #f00;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    transition: background-color 0.5s;
-}
-
-#need1 { top: 0; left: 50%; transform: translateX(-50%); }
-#need2 { top: 50%; left: 100%; transform: translate(-50%, -50%); }
-#need3 { top: 100%; left: 50%; transform: translate(-50%, -50%); }
-#need4 { top: 50%; left: 0; transform: translate(50%, -50%); }
-
-#feedback {
-    margin-top: 20px;
-    text-align: center;
-    color: #00f;
-}
-
-#resources {
-    margin-top: 20px;
-    text-align: center;
-}
-
-#resources a {
-    display: block;
-    margin-top: 10px;
-    color: #00f;
-    text-decoration: none;
-}
-
-#resources a:hover {
-    text-decoration: underline;
-}
+// Gestionnaire d'événement pour le clic sur le symbole
+document.getElementById("symbol").addEventListener("click", () => {
+  const questionText = document.getElementById("question-text");
+  questionText.textContent = getRandomQuestion();
+});
