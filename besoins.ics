@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241209
+DESCRIPTION:Semaine 1 - Jour 6 : Écoute ton corps. Quels besoins physiques (repos\, mouvement\, nourriture\, etc.) appellent ton attention aujourd’hui ?
+SUMMARY:Écoute de mes besoins - Semaine 1 - Jour 6
+UID:0d5ee844-4bfe-4ee8-9e36-cfb4e005fb34@0d5e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241204
+DESCRIPTION:Semaine 1 - Jour 1 : Prends un moment pour respirer profondément et observer comment tu te sens. Note un besoin qui semble important pour toi aujourd’hui.
+SUMMARY:Écoute de mes besoins - Semaine 1 - Jour 1
+UID:250da020-71a8-4163-92b5-fe4dab58469a@250d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241207
+DESCRIPTION:Semaine 1 - Jour 4 : Imagine que quelqu’un t’écoute profondément. Que dirais-tu pour exprimer un besoin important pour toi en ce moment ?
+SUMMARY:Écoute de mes besoins - Semaine 1 - Jour 4
+UID:1deb1cc9-cbd7-4748-941f-3af41c1e8dbf@1deb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241228
+DESCRIPTION:Semaine 4 - Jour 4 : Réfléchis à un moment où tu as eu du mal à comprendre tes besoins. Qu’est-ce qui aurait pu t’aider à mieux les clarifier ?
+SUMMARY:Écoute de mes besoins - Semaine 4 - Jour 4
+UID:a19ad31d-2321-4120-bbf6-2d2dacc20cd0@a19a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241222
+DESCRIPTION:Semaine 3 - Jour 5 : Note une chose pour laquelle tu te sens reconnaissant aujourd’hui. Quels besoins cela satisfait-il pour toi ?
+SUMMARY:Écoute de mes besoins - Semaine 3 - Jour 5
+UID:6d75c7c4-fd2d-4a8e-93a2-5e2f793cdc75@6d75.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241216
+DESCRIPTION:Semaine 2 - Jour 6 : Observe comment tu te connectes avec toi-même. Quels besoins te semblent essentiels pour maintenir cette connexion ?
+SUMMARY:Écoute de mes besoins - Semaine 2 - Jour 6
+UID:0b2944ce-0b5e-4ee5-acff-f3cd5c53a145@0b29.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241219
+DESCRIPTION:Semaine 3 - Jour 2 : Prends un moment pour écouter ton environnement. Quels besoins de connexion ou d’appartenance ressens-tu ?
+SUMMARY:Écoute de mes besoins - Semaine 3 - Jour 2
+UID:aec5c620-a803-483e-a610-61f06559464f@aec5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241217
+DESCRIPTION:Semaine 2 - Jour 7 : Récapitulatif de la semaine : Quels besoins émergent le plus souvent dans tes réflexions ? Y a-t-il des thèmes communs ou des surprises ?
+SUMMARY:Écoute de mes besoins - Semaine 2 - Jour 7
+UID:86519fa9-144e-4d45-b327-7cad1b1bed6a@8651.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241221
+DESCRIPTION:Semaine 3 - Jour 4 : Identifie un besoin que tu as souvent négligé. Que peux-tu faire pour lui accorder plus d’attention aujourd’hui ?
+SUMMARY:Écoute de mes besoins - Semaine 3 - Jour 4
+UID:0ce97689-6281-4282-a452-810734ad7261@0ce9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241213
+DESCRIPTION:Semaine 2 - Jour 3 : Pense à une décision que tu dois prendre. Quels besoins souhaites-tu honorer en priorité à travers cette décision ?
+SUMMARY:Écoute de mes besoins - Semaine 2 - Jour 3
+UID:8cba9dd4-29b3-427f-a3d1-3e26dcdf957d@8cba.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241230
+DESCRIPTION:Semaine 4 - Jour 6 : Imagine que tu guides quelqu’un d’autre dans une exploration de ses besoins. Quels conseils lui donnerais-tu ?
+SUMMARY:Écoute de mes besoins - Semaine 4 - Jour 6
+UID:b96a9992-ece5-4af9-a0c7-f7ea302066cb@b96a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241226
+DESCRIPTION:Semaine 4 - Jour 2 : Écris une phrase simple exprimant un besoin central pour toi en ce moment. Imagine la partager avec quelqu’un qui t’écoute pleinement.
+SUMMARY:Écoute de mes besoins - Semaine 4 - Jour 2
+UID:1cf7271c-70ac-4016-8833-a1fbfab7c11c@1cf7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241225
+DESCRIPTION:Semaine 4 - Jour 1 : Prends un moment pour ressentir un équilibre entre tes besoins personnels et ceux des autres. Quels besoins sont prioritaires aujourd’hui ?
+SUMMARY:Écoute de mes besoins - Semaine 4 - Jour 1
+UID:bc7e8c64-83f5-4b27-a98f-da0b4a357abc@bc7e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241229
+DESCRIPTION:Semaine 4 - Jour 5 : Rédige une lettre à toi-même pour honorer tes besoins et te remercier de les avoir écoutés au cours de ce programme.
+SUMMARY:Écoute de mes besoins - Semaine 4 - Jour 5
+UID:6fd578a9-64e9-4f93-95cd-e690bb6d787f@6fd5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241205
+DESCRIPTION:Semaine 1 - Jour 2 : Réfléchis à un moment de la journée où tu t’es senti tendu ou contrarié. Quel besoin était peut-être insatisfait à ce moment-là ?
+SUMMARY:Écoute de mes besoins - Semaine 1 - Jour 2
+UID:369e0388-1692-4ffc-9fb9-a72d0b8ae09c@369e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241231
+DESCRIPTION:Semaine 4 - Jour 7 : Bilan final : Relis toutes tes notes. Quels besoins émergent comme essentiels pour toi ? Comment peux-tu continuer à les honorer au quotidien ?
+SUMMARY:Écoute de mes besoins - Semaine 4 - Jour 7
+UID:3bae9e8d-0bc7-4d32-bd46-8e1f6a12da8f@3bae.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241206
+DESCRIPTION:Semaine 1 - Jour 3 : Pense à une situation agréable que tu as vécue récemment. Quel besoin satisfait t’a permis de te sentir bien ?
+SUMMARY:Écoute de mes besoins - Semaine 1 - Jour 3
+UID:b31f7f8c-50f6-4010-a361-06c81c31337c@b31f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241210
+DESCRIPTION:Semaine 1 - Jour 7 : Récapitulatif de la semaine : Relis tes notes. Quels besoins semblent les plus présents pour toi ? Quels sont les plus satisfaits ou les plus insatisfaits ?
+SUMMARY:Écoute de mes besoins - Semaine 1 - Jour 7
+UID:b9e991b4-5f1c-4620-bded-0d04ff1aef41@b9e9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241224
+DESCRIPTION:Semaine 3 - Jour 7 : Récapitulatif de la semaine : Quels nouveaux besoins as-tu découvert ? Y a-t-il des patterns ou des surprises dans tes observations ?
+SUMMARY:Écoute de mes besoins - Semaine 3 - Jour 7
+UID:e40bcba6-6118-491e-9583-3dd891c96788@e40b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241212
+DESCRIPTION:Semaine 2 - Jour 2 : Identifie un besoin que tu trouves difficile à exprimer. Que ressens-tu à l’idée de le partager avec quelqu’un ?
+SUMMARY:Écoute de mes besoins - Semaine 2 - Jour 2
+UID:27967125-9b5c-44ab-a13d-a3b5ee19ea9a@2796.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241208
+DESCRIPTION:Semaine 1 - Jour 5 : En te remémorant ta journée\, quels besoins ont été satisfaits ou insatisfaits ? Note ceux qui semblent récurrents.
+SUMMARY:Écoute de mes besoins - Semaine 1 - Jour 5
+UID:e2567dd9-61aa-4bea-bb96-d621b5be9693@e256.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241220
+DESCRIPTION:Semaine 3 - Jour 3 : Pense à une valeur importante pour toi. Comment cette valeur exprime-t-elle un ou plusieurs de tes besoins fondamentaux ?
+SUMMARY:Écoute de mes besoins - Semaine 3 - Jour 3
+UID:95de5b58-b661-47ad-8688-d614dceffc64@95de.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250108
+DESCRIPTION:À la fin de ce programme\, continuez à écouter vos besoins au quotidien. Cela vous aidera à maintenir une connexion profonde avec vous-même et à nourrir un équilibre intérieur durable.
+SUMMARY:Écoute de mes besoins - Intégration des habitudes
+UID:24fee990-8f87-4691-86ca-5472d85a83ba@24fe.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241211
+DESCRIPTION:Semaine 2 - Jour 1 : Observe une relation importante dans ta vie. Quels besoins sont en jeu dans cette relation\, pour toi et pour l’autre personne ?
+SUMMARY:Écoute de mes besoins - Semaine 2 - Jour 1
+UID:43a67d4f-5eaa-49a2-9a8f-462012460276@43a6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241223
+DESCRIPTION:Semaine 3 - Jour 6 : Essaie d’écouter un besoin collectif (par exemple\, dans ton groupe ou ta famille). En quoi est-il lié à tes propres besoins ?
+SUMMARY:Écoute de mes besoins - Semaine 3 - Jour 6
+UID:c273225d-8fc7-4f9e-8dbc-95acffc034a8@c273.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241227
+DESCRIPTION:Semaine 4 - Jour 3 : Pense à une ressource ou une personne qui pourrait t’aider à nourrir un besoin. Quelle action pourrais-tu entreprendre pour activer cette aide ?
+SUMMARY:Écoute de mes besoins - Semaine 4 - Jour 3
+UID:afd617a5-bf11-446d-9218-fdbecec13bc7@afd6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250101
+DESCRIPTION:Prenez quelques minutes pour relire vos notes. Quels besoins avez-vous découvert ou mieux compris ? Quels patterns ou surprises remarquez-vous dans vos observations ?
+SUMMARY:Écoute de mes besoins - Évaluation des résultats
+UID:5dda30d5-58b9-4cce-8877-e990f6f660b6@5dda.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241215
+DESCRIPTION:Semaine 2 - Jour 5 : Imagine un espace où tous tes besoins seraient entendus et respectés. Quel besoin ressens-tu particulièrement dans cet espace ?
+SUMMARY:Écoute de mes besoins - Semaine 2 - Jour 5
+UID:df5b7d89-595d-45cd-8564-0cdbab12500e@df5b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241218
+DESCRIPTION:Semaine 3 - Jour 1 : Reviens à un besoin que tu as identifié comme insatisfait. Quels petits pas pourrais-tu faire pour commencer à le nourrir ?
+SUMMARY:Écoute de mes besoins - Semaine 3 - Jour 1
+UID:8feabf19-fed3-4248-9df6-02f7827cf861@8fea.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241214
+DESCRIPTION:Semaine 2 - Jour 4 : Essaie d’écouter un besoin caché derrière une émotion forte (colère\, tristesse\, joie). Quel besoin pourrait être à l’origine de cette émotion ?
+SUMMARY:Écoute de mes besoins - Semaine 2 - Jour 4
+UID:caa3d21c-f57e-4b40-90b4-9296887681ad@caa3.org
+END:VEVENT
+END:VCALENDAR
