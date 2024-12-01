@@ -9,12 +9,46 @@
 </head>
 <body>
   <div class="container">
+    <!-- Section du Symbole -->
     <div id="symbol-container">
       <img src="symbole.png" alt="Symbole Taiji" id="symbol" aria-label="Cliquez pour recevoir une question" />
     </div>
     <div id="question-box">
       <p id="question-text">Cliquez sur le symbole pour découvrir une question introspective posée par le Champ Unifié.</p>
     </div>
+
+    <!-- Section : Introduction -->
+    <section id="introduction">
+      <h2>Bienvenue dans l'exploration</h2>
+      <p>Le Champ Unifié est une invitation à vivre en harmonie avec soi-même, les autres, et l'univers. Ce projet repose sur des pratiques simples, accessibles et transformantes.</p>
+    </section>
+
+    <!-- Section : Pratiques quotidiennes -->
+    <section id="pratiques">
+      <h2>Pourquoi intégrer des pratiques dans ton quotidien ?</h2>
+      <p>Les grandes transformations viennent des petits pas réguliers. Chaque jour, prends 5 à 10 minutes pour explorer un nouvel espace intérieur et nourrir ta connexion au vivant.</p>
+    </section>
+
+    <!-- Section : Méthode testée -->
+    <section id="method-test">
+      <h2>Écouter tes besoins : une méthode simple et puissante</h2>
+      <p>Découvre chaque jour le besoin qui crie le plus fort en toi. Cette méthode, inspirée de la Communication NonViolente (CNV), t'aidera à cultiver une meilleure écoute de toi-même.</p>
+      
+      <h3>Comment ça marche ?</h3>
+      <ol>
+        <li>Télécharge le fichier ICS : <a href="besoins.ics" download="besoins.ics">Télécharger ici</a>.</li>
+        <li>Importe-le dans ton agenda numérique (Google Calendar, Outlook, etc.).</li>
+        <li>Chaque jour, prends 5 minutes pour suivre les instructions et te connecter à tes besoins.</li>
+      </ol>
+    </section>
+
+    <!-- Section : Collectif et Feedback -->
+    <section id="collective-tool">
+      <h2>Un outil vivant, enrichi par vous</h2>
+      <p>Ce projet évolue grâce à vos retours. Testez, expérimentez, et partagez vos impressions pour co-créer un espace d'écoute et d'interconnexion. <a href="formulaire_feedback.html">Donnez-nous votre avis ici !</a></p>
+    </section>
+
+    <!-- Section : Formulaire de contact -->
     <div id="contact-form">
       <h3>Me transmettre un message</h3>
       <form action="https://formspree.io/f/xvgovzvj" method="POST">
@@ -29,10 +63,13 @@
         <button type="submit">Envoyer</button>
       </form>
     </div>
+
+    <!-- Section : README contenu -->
     <div id="readme-content">
       <!-- Le contenu du README.md sera affiché ici -->
     </div>
   </div>
+
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
