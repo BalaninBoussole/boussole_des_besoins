@@ -1,55 +1,55 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Champ Unifié</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Champ Unifié</title>
+  <link rel="icon" href="symbole.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>🌱 Champ Unifié</h1>
-        <p>Connecter les liens invisibles entre soi, les autres et le vivant.</p>
-    </header>
-    
-    <section id="introduction">
-        <h2>Bienvenue dans l'exploration</h2>
-        <p>Le Champ Unifié est une invitation à vivre en harmonie avec soi-même, les autres, et l'univers. Ce projet repose sur des pratiques simples, accessibles et transformantes.</p>
-    </section>
+  <div class="container">
+    <div id="symbol-container">
+      <img src="symbole.png" alt="Symbole Taiji" id="symbol" aria-label="Cliquez pour recevoir une question" />
+    </div>
+    <div id="question-box">
+      <p id="question-text">Cliquez sur le symbole pour découvrir une question introspective posée par le Champ Unifié.</p>
+    </div>
+    <div id="contact-form">
+      <h3>Me transmettre un message</h3>
+      <form action="https://formspree.io/f/xvgovzvj" method="POST">
+        <label>
+          Votre email (facultatif):
+          <input type="email" name="email" placeholder="Votre email">
+        </label>
+        <label>
+          Votre message:
+          <textarea name="message" placeholder="Votre message" required></textarea>
+        </label>
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+    <div id="readme-content">
+      <!-- Le contenu du README.md sera affiché ici -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    async function loadReadmeContent() {
+      try {
+        const response = await fetch('README.md'); // Charger le fichier README.md
+        if (!response.ok) throw new Error(`Erreur HTTP: ${response.status}`);
+        const text = await response.text(); // Lire le contenu
+        document.getElementById('readme-content').innerHTML = marked.parse(text); // Utiliser marked.parse
+      } catch (error) {
+        console.error("Erreur lors du chargement du README.md:", error);
+        document.getElementById('readme-content').textContent = 
+          "Impossible de charger le contenu du README.md.";
+      }
+    }
 
-    <section id="pratiques">
-        <h2>Pourquoi intégrer des pratiques dans ton quotidien ?</h2>
-        <p>Les grandes transformations viennent des petits pas réguliers. Chaque jour, prends 5 à 10 minutes pour explorer un nouvel espace intérieur et nourrir ta connexion au vivant.</p>
-    </section>
-
-    <section id="method-test">
-        <h2>Écouter tes besoins : une méthode simple et puissante</h2>
-        <p>Découvre chaque jour le besoin qui crie le plus fort en toi. Cette méthode, inspirée de la Communication NonViolente (CNV), t'aidera à cultiver une meilleure écoute de toi-même.</p>
-        
-        <h3>Comment ça marche ?</h3>
-        <ol>
-            <li>Télécharge le fichier ICS : <a href="lien_vers_fichier.ics">Télécharger ici</a>.</li>
-            <li>Importe-le dans ton agenda numérique (Google Calendar, Outlook, etc.).</li>
-            <li>Chaque jour, prends 5 minutes pour suivre les instructions et te connecter à tes besoins.</li>
-        </ol>
-
-        <h3>Pourquoi c'est utile ?</h3>
-        <p>Cette pratique régulière t'aidera à : 
-            <ul>
-                <li>Mieux comprendre tes ressentis.</li>
-                <li>Réagir avec plus d’harmonie dans tes interactions.</li>
-                <li>Créer un espace de bienveillance envers toi-même.</li>
-            </ul>
-        </p>
-    </section>
-
-    <section id="collective-tool">
-        <h2>Un outil vivant, enrichi par vous</h2>
-        <p>Ce projet évolue grâce à vos retours. Testez, expérimentez, et partagez vos impressions pour co-créer un espace d'écoute et d'interconnexion. <a href="formulaire_feedback.html">Donnez-nous votre avis ici !</a></p>
-    </section>
-
-    <footer>
-        <p>© 2024 Champ Unifié - Créons ensemble un monde plus connecté et harmonieux.</p>
-    </footer>
+    loadReadmeContent(); // Appel de la fonction
+  </script>
 </body>
 </html>
