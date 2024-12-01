@@ -34,17 +34,22 @@
     </div>
   </div>
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
-    // Fonction pour charger le contenu du README.md
     async function loadReadmeContent() {
-      const response = await fetch('README.md');
-      const text = await response.text();
-      document.getElementById('readme-content').innerHTML = marked(text);
+      try {
+        const response = await fetch('README.md'); // Charger le fichier README.md
+        if (!response.ok) throw new Error(`Erreur HTTP: ${response.status}`);
+        const text = await response.text(); // Lire le contenu
+        document.getElementById('readme-content').innerHTML = marked.parse(text); // Utiliser marked.parse
+      } catch (error) {
+        console.error("Erreur lors du chargement du README.md:", error);
+        document.getElementById('readme-content').textContent = 
+          "Impossible de charger le contenu du README.md.";
+      }
     }
 
-    // Appel de la fonction pour charger le contenu du README.md
-    loadReadmeContent();
+    loadReadmeContent(); // Appel de la fonction
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </body>
 </html>
