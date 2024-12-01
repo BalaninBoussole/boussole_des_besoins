@@ -1,4 +1,4 @@
-Champ Unifié : Une Invitation à la Connexion Universelle
+ <div style="text-align: center;">Champ Unifié : Une Invitation à la Connexion Universelle</div>
 
 Champ Unifié est une exploration audacieuse pour révéler les liens invisibles entre soi, les autres, et le monde vivant. Ce projet invite à un dialogue profond avec l'univers, à travers un nouvel art fusionnant empathie, science, et spiritualité. Il appelle ceux qui ressentent la nécessité d'une transformation collective à co-créer un espace où chaque vibration, chaque être, peut être écouté et honoré.
 
