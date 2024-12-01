@@ -102,37 +102,8 @@ body {
   background-color: #0056b3;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .container {
-    padding: 10px;
-  }
-
-  #symbol {
-    width: 150px;
-    height: 150px;
-  }
-
-  #question-box {
-    padding: 20px;
-  }
-
-  #question-text {
-    font-size: 18px;
-  }
-
-  #contact-form h3 {
-    font-size: 20px;
-  }
-
-  #contact-form input[type="email"],
-  #contact-form textarea {
-    font-size: 16px;
-    padding: 12px;
-  }
-
-  #contact-form button {
-    font-size: 16px;
-    padding: 12px 24px;
-  }
+/* Contenu du README */
+#readme-content {
+  margin-top: 40px; /* Plus d'espace */
+  text-align: left;
 }
